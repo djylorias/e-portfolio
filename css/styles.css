@@ -1,0 +1,50 @@
+body > header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #41495caa;
+	height: 150px;
+	backdrop-filter: blur(4px);
+	display: flex;
+	justify-content: left;
+
+}
+
+body > header > nav {
+	display: flex;
+	width: 100%;
+	max-width: 1000px;
+}
+
+.menuOption {
+    display: inline-block;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 75px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+  
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid var(--bs-border-color);
+    border-radius: 0.375rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+  }
