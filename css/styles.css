@@ -84,6 +84,7 @@
   border-width: 3px;
   border-style: solid;
   border-radius: 25px;
+  margin: 5px;
 }
 
 .vignette_projet > * {
@@ -98,6 +99,11 @@
 .vignette_projet_description{
   display: flex;
   
+}
+
+.vignette_projet_image{
+  border-bottom-left-radius: 20px;
+  margin-right: 5px;
 }
 
 *,
