@@ -1,1 +1,22 @@
 @import url('styles.css');
+
+.main_experience_div{
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 2fr 2fr 8fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    padding: 0.5%;
+}
+
+.experience_nav{
+    grid-column: 1;
+}
+
+.experience_list{
+    grid-column: 3;
+}
+
+.main_experience_div > div {
+    background-color: var(--light-blue1-color-templates);
+}
