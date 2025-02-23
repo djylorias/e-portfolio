@@ -19,4 +19,6 @@
 
 .main_experience_div > div {
     background-color: var(--light-blue1-color-templates);
+    display: flex;
+    height: 100%;
 }
