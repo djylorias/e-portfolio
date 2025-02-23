@@ -1,0 +1,40 @@
+@import url('styles.css');
+
+.main_welcome_grid {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 0.5%;
+  }
+  
+  .welcome_cv {
+    grid-column: 1;
+    grid-row: 1 / 4;
+  }
+  
+  .welcome_experiences {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  .welcome_skills {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  
+  .welcome_projects {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  
+  .main_welcome_grid > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-blue1-color-templates); /* Juste pour visualiser */
+    color: var(--dark-blue-color-templates);
+    font-size: 5vh;
+    height: 100%;
+  }
