@@ -3,22 +3,28 @@
 .main_experience_div{
     flex-grow: 1;
     display: grid;
-    grid-template-columns: 2fr 2fr 8fr;
-    grid-template-rows: 1fr;
-    gap: 10px;
-    padding: 0.5%;
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: auto;
 }
 
-.experience_nav{
-    grid-column: 1;
+.experiences_list{
+    grid-column: 2;
 }
 
-.experience_list{
-    grid-column: 3;
-}
-
-.main_experience_div > div {
-    background-color: var(--light-blue1-color-templates);
+.experience_div {
     display: flex;
-    height: 100%;
+    flex-direction: row;
+    border: 3px solid var(--dark-blue-color-templates);
+    background-color: var(--light-blue1-color-templates);
+    padding: 10px;
+    margin: 0.5vw;
+}
+
+.experience_date_separator {
+    width: 10px;
+    background-color: var(--dark-blue-color-templates);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }

@@ -22,7 +22,7 @@ nav {
   background-color: var(--dark-blue-color-templates);
   color: var(--pink-color-templates);
   padding: 0.5%;
-  height: 8vh;
+  height: 65px;
   align-content: center;
   font-size: 5vh;
 }
