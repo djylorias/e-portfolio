@@ -20,11 +20,19 @@ body {
 
 nav {
   background-color: var(--dark-blue-color-templates);
-  color: var(--pink-color-templates);
   padding: 0.5%;
   height: 65px;
   align-content: center;
+}
+
+.nav_full_name {
   font-size: 50px;
+  text-decoration: none;
+  color: var(--pink-color-templates);
+}
+
+.nav_full_name:hover {
+  color: var(--yellow-color-templates);
 }
 
 @keyframes blink {
