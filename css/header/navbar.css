@@ -1,0 +1,24 @@
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Barlow, sans-serif;
+    gap: 24px;
+    font-size: 26px;
+
+}
+
+.navlink
+{
+    display: flex;
+    gap: 4px;
+}
+
+.navlink_title
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

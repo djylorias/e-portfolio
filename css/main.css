@@ -1,0 +1,10 @@
+@import url(header/header.css);
+
+body
+{
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #646cff;
+}
