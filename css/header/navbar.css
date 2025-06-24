@@ -7,13 +7,25 @@
     font-family: Barlow, sans-serif;
     gap: 24px;
     font-size: 26px;
-
+    color: var(--main-color);
 }
 
 .navlink
 {
     display: flex;
     gap: 4px;
+    text-decoration: none;
+}
+
+.navlink:hover
+{
+    text-decoration: underline;
+}
+
+.navlink.active
+{
+    color: red;
+    text-decoration: underline;
 }
 
 .navlink_title

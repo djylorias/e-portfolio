@@ -1,10 +1,17 @@
 @import url(header/header.css);
 
+:root
+{
+    --header-bg-color: white;
+    --main-bg-color: #1a1a1a;
+    --main-color: #646cff;
+}
+
 body
 {
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1a1a1a;
-    color: #646cff;
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
 }
