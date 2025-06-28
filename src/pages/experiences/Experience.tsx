@@ -8,7 +8,7 @@ function Experience() {
     return (
 
         <div id="experience">
-            <h1>Experiences</h1>
+            <h1 className="experiences_title">Experiences</h1>
             <VerticalTimeline>
                 {experienceTimelineElements.map((element) => {
                     return (
