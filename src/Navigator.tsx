@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router";
 import Welcome from "./pages/Welcome";
-import Experience from "./pages/Experience";
+import Experience from "./pages/experiences/Experience";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import Studies from "./pages/Studies";
