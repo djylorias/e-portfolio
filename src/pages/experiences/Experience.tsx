@@ -4,6 +4,8 @@ import experienceTimelineElements from "./Data.tsx"
 import { BriefcaseIcon } from "@phosphor-icons/react"
 
 function Experience() {
+
+    let iconStyle = {background: "#FFFFFF"}
     
     return (
 
@@ -16,7 +18,8 @@ function Experience() {
                             key={element.id}
                             date={element.date}
                             dateClassName="date"
-                            icon={<BriefcaseIcon/>}
+                            icon={<BriefcaseIcon size={64}/>}
+                            iconStyle={iconStyle}
                         >
                             <h3 className="vertical-timeline-element-title">
                                 {element.title}
